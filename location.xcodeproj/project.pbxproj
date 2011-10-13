@@ -10,6 +10,7 @@
 		666F6A28144786FE00BAB357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666F6A27144786FE00BAB357 /* Foundation.framework */; };
 		666F6A2B144786FE00BAB357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666F6A2A144786FE00BAB357 /* main.m */; };
 		666F6A2F144786FE00BAB357 /* location.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666F6A2E144786FE00BAB357 /* location.1 */; };
+		666F6A361447873200BAB357 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666F6A351447873200BAB357 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,9 @@
 		666F6A23144786FE00BAB357 /* location */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = location; sourceTree = BUILT_PRODUCTS_DIR; };
 		666F6A27144786FE00BAB357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		666F6A2A144786FE00BAB357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		666F6A2D144786FE00BAB357 /* location-Prefix.pch */ = {isa = PBXFileReference; path = "location-Prefix.pch"; sourceTree = "<group>"; };
+		666F6A2D144786FE00BAB357 /* location-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "location-Prefix.pch"; sourceTree = "<group>"; };
 		666F6A2E144786FE00BAB357 /* location.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = location.1; sourceTree = "<group>"; };
+		666F6A351447873200BAB357 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666F6A361447873200BAB357 /* CoreLocation.framework in Frameworks */,
 				666F6A28144786FE00BAB357 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		666F6A18144786FE00BAB357 = {
 			isa = PBXGroup;
 			children = (
+				666F6A351447873200BAB357 /* CoreLocation.framework */,
 				666F6A29144786FE00BAB357 /* location */,
 				666F6A26144786FE00BAB357 /* Frameworks */,
 				666F6A24144786FE00BAB357 /* Products */,
