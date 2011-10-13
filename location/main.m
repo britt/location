@@ -16,6 +16,11 @@ int main (int argc, const char * argv[])
     
     if([CLLocationManager locationServicesEnabled]) {
         CLLocationManager * geo = [[CLLocationManager alloc] init];
+        NSDate * lastUpdate = geo.location.timestamp;
+        [geo startUpdatingLocation];
+        while(geo.location.timestamp == lastUpdate) {
+            sleep(1);
+        }
         CLLocation *location = geo.location;
         NSLog([NSString localizedStringWithFormat:@"%f,%f", location.coordinate.latitude, location.coordinate.longitude]);
     } else {

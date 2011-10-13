@@ -231,6 +231,7 @@
 				666F6A34144786FE00BAB357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
